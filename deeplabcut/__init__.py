@@ -15,7 +15,7 @@ import os
 DEBUG = True and "DEBUG" in os.environ and os.environ["DEBUG"]
 from deeplabcut.version import __version__, VERSION
 
-print(f"Loading DLC {VERSION}...")
+print(f"Loading DLC {VERSION} (modified by mcanela)")
 
 try:
     from deeplabcut.gui.tracklet_toolbox import refine_tracklets
